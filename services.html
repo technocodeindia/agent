@@ -1,245 +1,707 @@
-<html>
-  <title>Services</title>
-  <head>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+
+
+
+
+
+
 <style>
-   section {
-            padding: 60px 0;
-            min-height: 100vh;
-        }
-        
-        a,
-        a:hover,
-        a:focus,
-        a:active {
-            text-decoration: none;
-            outline: none;
-        }
-        
-        a,
-        a:active,
-        a:focus {
-            color: #6f6f6f;
-            text-decoration: none;
-            transition-timing-function: ease-in-out;
-            -ms-transition-timing-function: ease-in-out;
-            -moz-transition-timing-function: ease-in-out;
-            -webkit-transition-timing-function: ease-in-out;
-            -o-transition-timing-function: ease-in-out;
-            transition-duration: .2s;
-            -ms-transition-duration: .2s;
-            -moz-transition-duration: .2s;
-            -webkit-transition-duration: .2s;
-            -o-transition-duration: .2s;
-        }
-        
-        ul {
-            margin: 0;
-            padding: 0;
-            list-style: none;
-        }
-        img {
-    max-width: 100%;
-    height: auto;
-}
-.section_title {
-  margin-bottom: 40px;
+
+@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
+
+
+
+
+
+*
+
+{
+
+    box-sizing: border-box;
+
+    margin: 0;
+
+    padding: 0;
+
 }
 
-.section_title h2 {
-  color: #333333;
-  font-size: 25px;
-  font-weight: 700;
-  letter-spacing: 1.8px;
-  text-transform: uppercase;
-}
+body
 
-.brand_border .fa.fa-minus {
-    color: #fff;
-    font-size: 8px;
-    height: 2px;
-        background: #F8C01B none repeat scroll 0 0;
-    width: 100px;
-}
-.brand_border .fas.fa-handshake {
-    font-size: 14px;
-        color:#000000;
+{
+
+    background: #fff;
+
+    font-family: 'Ubuntu', sans-serif;
+
+
+
 }
 
 
-.section_title p {
-  color: #333333;
-  font-size: 14px;
-  line-height: 25px;
-  padding: 14px 0;
-}
 
-.choose_us .section_title {
-    margin-top: 45px;
-}
-#service .single_service {
-  padding: 32px;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-  margin-bottom: 50px;
-}
+.services
 
-#service .single_service:hover{
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
-}
+{
 
-#service .icon {
-  border: 1px solid #666;
-  border-radius: 5%;
-  color: #333333;
-  font-size: 35px;
-  line-height: 65px;
-  overflow: hidden;
-  text-align: center;
-  text-decoration: none;
-  width: 70px;
-}
+    display: block;
 
-#service .single_service .single_service-left {
-  padding-right: 25px;
-}
-
-.single_service-heading {
-  font-size: 15px;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #000;
-}
-
-.single_service-body p {
-  font-size: 13px;
-  line-height: 25px;
-}
-
-.single_service-left {
-  display: table-cell;
-  vertical-align: top;
-}
-.single_service-body {
-  color: #333333;
-  display: table-cell;
-  vertical-align: top;
-}
-.hvr-curl-top-right {
-    display: inline-block;
-    vertical-align: middle;
-    -webkit-transform: perspective(1px) translateZ(0);
-    transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px transparent;
     position: relative;
-}
-#service .single_service:hover {
-    background: #F8C01B none repeat scroll 0 0;
-}
-</style>
-  </head>
-  <body>
-<section id="service">
-    <div class="container">
-     <div class="row">
-      <div class="col-md-12">
-       <div class="section_title text-center">
-         <h2>Our Services</h2>
-          <div class="brand_border">
-           <i class="fa fa-minus" aria-hidden="true"></i> 
-           <i class="fas fa-handshake"></i>
-           <i class="fa fa-minus" aria-hidden="true"></i>
-          </div>
-         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. <br>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes</p>
-       </div>
-      </div>
-    </div>
-   <div class="row">
-    <!--START SINGLE SERVICE AREA-->
-     <div class="col-md-6 col-lg-4 col-sm-12">
-      <div class="single_service hvr-curl-top-right">
-       <div class="single_service-left">
-        <div class="icon">
-          <i class="fa fa-laptop"></i>
-        </div>
-       </div>
-       <div class="single_service-body">
-        <h4 class="single_service-heading">web Design</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing                                      elit. Aenean commodo ligula.</p>
-       </div>
-      </div>
-     </div><!--/END SINGLE SERVICE AREA-->
-     <!--START SINGLE SERVICE AREA-->
-     <div class="col-md-6 col-lg-4 col-sm-12">
-      <div class="single_service hvr-curl-top-right">
-       <div class="single_service-left">
-        <div class="icon">
-          <i class="fas fa-quidditch"></i>
-        </div>
-       </div>
-       <div class="single_service-body">
-         <h4 class="single_service-heading">Logo Design</h4>
-         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing                                     elit. Aenean commodo ligula.</p>
-      </div>
-     </div>
-    </div><!--/END SINGLE SERVICE AREA-->
-    <!--START SINGLE SERVICE AREA-->
-    <div class="col-md-6 col-lg-4 col-sm-12">
-     <div class="single_service hvr-curl-top-right">
-      <div class="single_service-left">
-       <div class="icon">
-         <i class="fas fa-newspaper"></i>
-       </div>
-      </div>
-      <div class="single_service-body">
-        <h4 class="single_service-heading">Ui & Ux Design</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing                               elit. Aenean commodo ligula.</p>
-      </div>
-     </div>
-    </div><!--/END SINGLE SERVICE AREA-->
-    <!--START SINGLE SERVICE AREA-->
-    <div class="col-md-6 col-lg-4 col-sm-12">
-     <div class="single_service hvr-curl-top-right">
-      <div class="single_service-left">
-       <div class="icon">
-         <i class="fas fa-smile"></i>
-       </div>
-      </div>
-      <div class="single_service-body">
-        <h4 class="single_service-heading">Branding</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing                                   elit. Aenean commodo ligula.</p>
-      </div>
-     </div>
-    </div><!--/END SINGLE SERVICE AREA-->
-    <!--START SINGLE SERVICE AREA-->
-    <div class="col-md-6 col-lg-4 col-sm-12">
-     <div class="single_service hvr-curl-top-right">
-      <div class="single_service-left">
-       <div class="icon">
-         <i class="fa fa-crop"></i>
-       </div>
-      </div>
-      <div class="single_service-body">
-         <h4 class="single_service-heading">Devlopment</h4>
-         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing                            elit. Aenean commodo ligula.</p>
-      </div>
-     </div>
-    </div><!--/END SINGLE SERVICE AREA-->
-    <!--START SINGLE SERVICE AREA-->
-    <div class="col-md-6 col-lg-4 col-sm-12">
-     <div class="single_service hvr-curl-top-right">
-      <div class="single_service-left">
-        <div class="icon">
-          <i class="fa fa-cogs"></i>
-        </div>
-      </div>
-     <div class="single_service-body">
-        <h4 class="single_service-heading">Security System</h4>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing                                       elit. Aenean commodo ligula.</p>
-      </div>
-     </div>
-    </div><!--/END SINGLE SERVICE AREA-->
-   </div>
-  </div>
- </section><!--/END SERVICE AREA--> 
-  </body>
-</html>
 
+    padding: 0;
+
+
+
+}
+
+.container
+
+{
+
+    max-width: 1200px;
+
+    padding-right: 15px;
+
+    padding-left: 15px;
+
+    margin-right: auto;
+
+    margin-left: auto;
+
+}
+
+
+
+.services-title
+
+{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    margin-right: -15px;
+
+    margin-left: -15px;
+
+    
+
+}
+
+.services-box
+
+{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    margin-right: -15px;
+
+    margin-left: -15px;
+
+    margin-top: -15px;
+
+    
+
+}
+
+
+
+.title{
+
+    margin-left: 15px;
+
+    position: relative;
+
+    width: 100%;
+
+    padding-right: 15px;
+
+    padding-left: 15px;
+
+    margin-bottom: 40px;
+
+    text-align: center;
+
+    top: 26px;
+
+}
+
+/**
+
+.services-title>span {
+
+    height: 36px;
+
+    width: 130px;
+
+    margin: 0 auto;
+
+    margin-bottom: 20px;
+
+    display: inline-block;
+
+    font-size: 20px;
+
+    color:rgb(255, 74, 50);
+
+ 
+
+}****/
+
+.services-title h2 {
+
+    margin-top: -10px;
+
+    margin-bottom: 6px;
+
+    text-transform: capitalize;
+
+    font-size: 36px;
+
+    line-height: 48px;
+
+    font-weight: 700;
+
+    color: #333;
+
+    font-family: 'ubuntu',sans-serif;
+
+
+
+}
+
+.services-title h2 span
+
+{
+
+    color: #3c44a9;
+
+}
+
+
+
+
+
+.box
+
+{
+
+    position: relative;
+
+    width: 100%;
+
+    padding-right: 15px;
+
+    padding-left: 15px;
+
+    max-width: 33.333333%;
+
+
+
+}
+
+.ser-box
+
+{    margin-top: 75px;
+
+    padding: 0 60px;
+
+    padding-bottom: 30px;
+
+    min-height: 198px;
+
+    text-align: center;
+
+    border-radius: 10px;
+
+    background-color: #fff;
+
+    -webkit-transition: all .4s ease-in-out;
+
+    -moz-transition: all .4s ease-in-out;
+
+    -ms-transition: all .4s ease-in-out;
+
+    -o-transition: all .4s ease-in-out;
+
+    transition: all .4s ease-in-out;
+
+    -webkit-box-shadow: 0 0 25px 0 rgba(20,27,201,.17);
+
+    box-shadow: 0 0 25px 0 rgba(20,27,201,.17);
+
+}
+
+
+
+.ser-box .icon
+
+{
+
+    margin-bottom: 0;
+
+    -webkit-transform: translateY(-50%);
+
+    -ms-transform: translateY(-50%);
+
+    transform: translateY(-50%);
+
+    text-align: center;
+
+}
+
+.ser-box h4
+
+{
+
+    font-size: 20px;
+
+    line-height: 1;
+
+    font-weight: 700;
+
+    color: #3c44a9;
+
+    margin-top: -10px;
+
+    font-family: 'Ubuntu', sans-serif;
+
+
+
+}
+
+.ser-box p {
+
+    color: #61648e;
+
+    line-height: 24px;
+
+    margin-top: 20px;
+
+    font-family: 'Ubuntu', sans-serif;
+
+
+
+}
+
+
+
+
+
+.ser-box:hover {
+
+ background-image:-moz-linear-gradient(-45deg,#fb0054 0%,#f55b2a 100%);
+
+ background-image:-webkit-linear-gradient(-45deg,#fb0054 0%,#f55b2a 100%);
+
+ background-image:-ms-linear-gradient(-45deg,#fb0054 0%,#f55b2a 100%);
+
+ -webkit-box-shadow:0 0 25px 0 rgba(20,27,201,.05);
+
+ box-shadow:0 0 25px 0 rgba(20,27,201,.05);
+
+ cursor:pointer
+
+}
+
+
+
+.ser-box:hover h4,
+
+.ser-box:hover p {
+
+ color:#fff
+
+}
+
+
+
+
+
+
+
+.services-box .box:nth-child(1) .ser-box:hover {
+
+ background-image:-webkit-linear-gradient(-45deg,#34b5bf 0%,#210c59 100%);
+
+ background-image:linear-gradient(-45deg,#34b5bf 0%,#210c59 100%)
+
+}
+
+.services-box .box:nth-child(3) .ser-box:hover {
+
+ background-image:-webkit-linear-gradient(-45deg,#3615e7 0%,#44a2f6 100%);
+
+ background-image:linear-gradient(-45deg,#3615e7 0%,#44a2f6 100%)
+
+}
+
+.services-box .box:nth-child(4) .ser-box:hover{
+
+ background-image:-webkit-linear-gradient(-45deg,#fc6a0e 0%,#fdb642 100%);
+
+ background-image:linear-gradient(-45deg,#fc6a0e 0%,#fdb642 100%);
+
+}
+
+.services-box .box:nth-child(5) .ser-box:hover {
+
+ background-image:linear-gradient(-45deg,#8d40fb 0%,#5a57fb 100%);
+
+ background-image:-webkit-linear-gradient(-45deg,#8d40fb 0%,#5a57fb 100%);
+
+
+
+}
+
+.services-box .box:nth-child(6) .ser-box:hover {
+
+ background-image:-webkit-linear-gradient(-45deg,#27b88d 0%,#22dd73 100%);
+
+ background-image:linear-gradient(-45deg,#27b88d 0%,#22dd73 100%)
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px){
+
+.box 
+
+{
+
+    flex: 0 0 50% !important;
+
+    max-width: 50% !important;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media (min-width: 600px){
+
+.box 
+
+{
+
+    flex: 0 0 50% !important;
+
+    max-width: 50% !important;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px)
+
+{
+
+.box 
+
+{
+
+    flex: 0 0 33.333333% !important;
+
+    max-width: 33.333333% !important;
+
+}
+
+}
+
+
+
+
+
+@media (min-width: 414px){
+
+.box 
+
+{
+
+    flex: 0 0 100%;
+
+    max-width: 100%;
+
+}
+
+
+
+}
+
+
+
+@media (min-width: 370px){
+
+.box 
+
+{
+
+    flex: 0 0 100%;
+
+    max-width: 100%;
+
+}
+
+
+
+}
+
+
+
+@media (min-width: 320px){
+
+.box 
+
+{
+
+    flex: 0 0 100%;
+
+    max-width: 100%;
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body>
+
+   
+
+<section class="services">
+
+
+
+    <div class="container">
+
+ 
+
+        <div class="services-title">
+
+            <div class="title">
+
+                  <!---- <span>S</span> ----->
+
+                   <h2><span> Our </span> Services</h2>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="services-box">
+
+           
+
+           <div class="box">
+
+                  <div class="ser-box">
+
+                     <div class="icon">
+
+                         <img src="setting.png">
+
+                     </div>
+
+                     <h4>Easy to Setup</h4>
+
+                     <p>Lorem Ipsum is simply dummy and typesetting industry.</p>
+
+                  </div>
+
+           </div>
+
+
+
+           <div class="box">
+
+                <div class="ser-box">
+
+                   <div class="icon">
+
+                       <img src="speed.png">
+
+                   </div>
+
+                   <h4>Fast Performance</h4>
+
+                   <p>Lorem Ipsum is simply dummy and typesetting industry.</p>
+
+                </div>
+
+           </div>
+
+
+
+          <div class="box">
+
+            <div class="ser-box">
+
+               <div class="icon">
+
+                   <img src="protect.png">
+
+               </div>
+
+               <h4>Privacy Protected</h4>
+
+               <p>Lorem Ipsum is simply dummy and typesetting industry.</p>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="box">
+
+            <div class="ser-box">
+
+               <div class="icon">
+
+                   <img src="backup.png">
+
+               </div>
+
+               <h4>Monthly Backup</h4>
+
+               <p>Lorem Ipsum is simply dummy and typesetting industry.</p>
+
+            </div>
+
+          </div>
+
+
+
+          <div class="box">
+
+          <div class="ser-box">
+
+             <div class="icon">
+
+                 <img src="/freessl.png">
+
+             </div>
+
+             <h4>Free SSL Certificate</h4>
+
+             <p>Lorem Ipsum is simply dummy and typesetting industry.</p>
+
+          </div>
+
+          </div>
+
+
+
+          <div class="box">
+
+           <div class="ser-box">
+
+              <div class="icon">
+
+                 <img src="database.png">
+
+              </div>
+
+             <h4>Unlimited Database</h4>
+
+             <p>Lorem Ipsum is simply dummy and typesetting industry.</p>
+
+           </div>
+
+          </div>
+
+
+
+
+
+        </div>
+
+
+
+    </div>
+
+</section>    
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
